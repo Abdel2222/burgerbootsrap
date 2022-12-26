@@ -1,0 +1,254 @@
+import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,400;1,600&family=Roboto:ital@1&display=swap");
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+section {
+    width: 100%;
+   
+    background-color: white;
+    color: white;
+    height: 20%;
+}
+/*home*/
+nav{
+    background-color: darkorange;
+}
+.navbar-nav{
+    position: relative;
+    width: 20%;
+    top: 100%;
+    
+}
+.nav-item a{
+    color: black;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-right: 25px;
+    transition: all 0.6s;
+   
+}
+.nav-item a:hover{
+    color: gold;
+}
+ul.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-items: center;
+    
+    margin: 0 auto;
+    
+}.nav-item a{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 0 auto;
+    
+}
+
+
+.d-flex input{
+    height: 50px;
+    width: 200px;
+    outline: none;
+    border: 2px solid green;
+    background-color: transparent;
+    border-radius: 50px ;
+    border-right: none;
+}
+.menu1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    flex-direction: row;
+    background: url(https://media.giphy.com/media/1zkrF3l0RfgapqdySj/giphy.gif)center/cover ;
+    height: 70px;
+}
+main{
+    background: url("https://media.giphy.com/media/LNqL76HLyj5DkCxaog/giphy.gif") center/cover;
+    width: 100%;
+    height: 50vh;
+
+}
+main h1{
+    text-align: center;
+    color: hwb(46 0% 0% / 0.944);
+    background: url(fire.gif);
+margin-top: -20px;
+}
+section.menu{
+    height: 40%;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    border: 1px solid blue;
+    background-color: darkcyan;
+    box-shadow: 5px 5px 10px black;
+}
+i.promot{
+    width: 10%;
+    border-radius: 50px;
+    background-color: yellowgreen;
+    box-shadow: 2px 2px 4px black;
+    color: beige;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+.menu button{
+    width: 45%;
+    border-radius: 50px;
+    color: gold;
+    font-size: 1rem;
+
+}
+footer{
+    height: 10%;
+    width: 100%;
+    font-size: 1.5rem;
+    bottom: 0;
+    color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+background-color:darkgray;
+}
+i.fab {
+    display: flex;
+    margin-left: -20px;
+}
+footer span{
+    margin-left: -150px;
+}
+/*page contact*/
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+input,textarea,button{
+    border:none;
+    width: 55%;
+    padding: 10px 10px;
+    font-size: 1.5em;
+    margin: 2px 1px;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    margin: 5px 2px;
+
+}
+textarea{
+    height: 300px;
+}
+.menu button{
+    font-size: 5em;
+    font-weight: bold;
+    background-color: darkolivegreen;
+    border-radius: 50px;
+   width: 18%;
+}
+button:hover{
+background-color: orangered;
+color:#f2f2f2;
+cursor : pointer;
+transition: 0.5s ease-in-out;
+}
+.icons{
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+}
+
+
+@media screen and (min-width:360px){
+   
+    
+        
+       a.navbar-brand{
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;}
+           button.navbar-toggler{
+             visibility: hidden;
+            }
+            section.menu{
+                width: 50%;
+                height: 70%;
+                display: flex;
+                flex-direction: column;
+                font-size: 5px;
+                
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+            }
+            footer{
+                display: flex;
+                flex-direction: column;
+                font-size: 1rem;
+                justify-content: space-between;
+                align-items: center;
+                height: 35%;
+                width: 100%;
+
+            }
+            footer span{
+                margin: 0 auto;
+                font-size: 1.5rem;
+                
+            }
+            
+            .menu1{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                list-style-type: none;
+                flex-direction: row;
+                background-color: darkkhaki;
+                height: 70px;
+                width:auto;
+                
+            }
+            .menu1 li{
+                margin-left: -12px;
+            }
+            .menu button{
+                font-size: 5em;
+                font-weight: bold;
+                background-color: darkolivegreen;
+                width: 60%;
+                color: black;
+
+                
+               
+            }
+            .article{
+                margin: -40px auto 0;
+                box-shadow: 1px 2px 9px darkgrey;
+               width: 70%;
+                background-color: darkkhaki;
+            }
+            .article h3{ 
+                font-size: 1rem;
+                text-align: center;
+
+            }
+            html{
+                margin: 0 auto;
+            }
+            
+        }
+        
+    
