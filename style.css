@@ -41,6 +41,7 @@ ul.menu {
     list-style: none;
     align-items: center;
     justify-items: center;
+    font-size: 1rem;
     
     margin: 0 auto;
     
@@ -62,14 +63,14 @@ ul.menu {
     border-right: none;
 }
 .menu1{
+    background: url(https://media.giphy.com/media/1zkrF3l0RfgapqdySj/giphy.gif) ;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style-type: none;
     flex-direction: row;
-    background: url(https://media.giphy.com/media/1zkrF3l0RfgapqdySj/giphy.gif)center/cover ;
-    height: 10px;
-}
+    background-color: darkgrey;
+    height: 70px;}
 main{
     background: url("https://media.giphy.com/media/LNqL76HLyj5DkCxaog/giphy.gif") center/cover;
     width: 100%;
@@ -127,7 +128,9 @@ footer a {
 }
 footer a:hover{
     cursor: pointer;
-    color: darkmagenta;
+    color: darkmagenta   
+    
+    
 }
 i.fab {
     display: flex;
