@@ -64,7 +64,7 @@ ul.menu {
     list-style-type: none;
     flex-direction: row;
     background-color: darkgrey;
-    height: 90px;}
+    height: 70px;}
 footer {
     display: flex;
     flex-direction: column;
